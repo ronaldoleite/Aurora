@@ -1,0 +1,206 @@
+.menu-lateral ul h2::after{
+  content:"";
+  height: .2rem;
+  width: 96%;
+  background-color: aliceblue;
+  display: block;
+  margin: 10px 0 0 0;
+}
+.main-main{
+  width: 100%;
+  height: auto;
+}
+.body{
+  /*background-image: url('../img/bg/bg-roxo-circle.png');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+.main{
+  width: 100%;
+  height: auto;
+}
+.main .menu-lateral{margin-left:0;margin-right: 0;}
+/*.main .menu-lateral .box-9{margin-right: 0; width: 81%;}*/
+
+.menu-lateral{
+  /*width:25rem;?*/
+  height: 100vh;
+}
+.menu-lateral li{
+  border-bottom: solid .2rem #ccc;
+}
+.menu-lateral li:hover i{
+  color:#ccc;transition:.15s ease-in-out;
+}
+.menu-lateral li:hover a{
+  color:#ccc;transition:.15s ease-in-out;
+}
+.main-menu li a{
+   padding: 10px;
+   cursor: pointer;
+   color:#999;
+}
+.main-menu li a:hover{
+  color:#666;
+}
+
+.mg-b-02{margin-bottom: .2rem;}
+input[type="file"]{ display:none; }
+.search{background: #d8d8d8; height: 40px; border-radius:5px;}
+.img-visivel{display:block; width: 170px; border:1px solid #ccc; padding: .5rem;}
+/*
+ formatação do checkbox atualiza estatus
+*/
+.zebra input[type="checkbox"]{
+  width: 33px;
+  height: 12px;
+  appearance: none;
+  background-color: tomato;
+  border-radius: 50px;
+  /* box-shadow: inset 0px 0px 16px 1px #f2f2f2; */
+  cursor: pointer;
+  transition: .4s;
+  position: relative;
+}
+.zebra .estatus input:checked[type="checkbox"]{
+  background-color: #54c74e;    
+}
+.zebra .estatus input[type="checkbox"]:before{
+ content:"";
+ width:12px ;
+ height:12px ;
+ background-color: #ffffff;
+ border-radius: 50px;
+ position:absolute;
+ box-shadow: 0px 4px 8px 1px #999;
+ transform:scale(1.1);
+ top:-1.7px;
+ left:0;
+ transition:.4s;
+}
+
+.zebra .estatus input:checked[type="checkbox"]:before{
+  left:27px;
+}
+
+.sexo input[type="radio"]{
+  width: 18px;
+  height: 18px;
+  appearance: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .4s;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.sexo input:checked[type="radio"]{
+  background-color: #1069ef;    
+}
+.desc{
+  height:120px;
+}
+.qs_input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #666;
+  padding-left:10px;
+}
+.psq{border-radius: 0 5px  5px 0 ;}
+.loger{
+  width: 800px;
+  height:580px;
+  background-image: url('../img/bg/bg_login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-add{height: 40px;}
+.bg-p2-azul-escuro{background-color: #146693;}
+.radius-start{border-radius: 5px 0 0 5px;}
+.radius-end{border-radius: 0 5px  5px 0 ;}
+.aviso-padrao{
+  width: 100%;
+  height: 300%; 
+  background:rgba(0,0,0,0.3); 
+  z-index: 10; 
+  position:absolute; 
+  top:0; 
+  left:0;
+}
+.aviso-padrao .span{
+  width: 360px;  
+  position:relative; 
+  margin:20% auto; 
+  height: 130px;;
+  background: #ffffff; 
+  border-radius: 5px; 
+  font-size: 1rem;
+  text-align: center;
+  padding-top:10px;
+}
+.aviso-padrao .caixa{
+  width: 350px;
+  margin:20% auto;
+  border-radius: 5px;
+  clear: both;
+  margin:15% auto;
+}
+.enviaProd{
+  height: 40px;
+}
+.form-pag .box-3 input[type="checkbox"]{
+  appearance: none;
+  background-color: rgb(255, 255, 255, .1 );
+  border:none;
+  border-radius: none;
+  width: 90%;
+  height: 90px;  
+  position: absolute; 
+  top:5px;
+  left:5px;
+  right:5px;
+  bottom:5px;
+}
+
+.form-pag .box-3 input:checked[type="checkbox"]{
+  border:6px solid rgb(254, 254, 254);
+  border-radius: none;
+  width: 90%;
+  height: 92px;  
+}
+.btn-painel{
+  width: 100px;
+  text-align: center;
+  border-radius:5px;
+  background-color: #ffffff;
+  font-size:2rem;
+  color:#838383;
+  position:absolute;
+  top:10px;
+  padding: 10px;
+}
+.modal{
+  width: 400px;
+  height: 350px;
+  background-color: #FFFFFF;
+  margin: 100px auto;
+}
+.canva .modal input[type="checkbox"]{width: 20px; height: 20px;}
+.hg-chart{height: 450px;}
+
+.dataTables_wrapper .dataTables_length label{
+  padding-top: 1rem;
+}
+.dataTables_wrapper .dataTables_length label select{
+  margin-top:1rem;
+}
+.dataTables_filter label{
+  padding-top: 1rem;
+}
+.dataTables_filter label input{
+  margin-top:1rem;
+}

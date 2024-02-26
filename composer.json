@@ -1,0 +1,20 @@
+{
+    "name": "ronaldo/aurora",
+    "description": "Sistemas com soluções para media e pequenas empresa. modulo de venda, estoqeu, compras, orçamentos.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ronaldo l rodrigues",
+            "email": "contato.aurora@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "nnnick/chartjs": "^4.4"
+    }
+}
